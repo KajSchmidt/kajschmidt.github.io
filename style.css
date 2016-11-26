@@ -1,5 +1,5 @@
 
-body, html {
+body, html, .container-fluid  {
   padding: 0;
   margin: 0;
   height: 100%;
@@ -8,50 +8,65 @@ body, html {
 
 a {
   color: #1e6bb8;
-  text-decoration: none; 
+  text-decoration: none;
 }
 
 a:hover {
-    text-decoration: underline; 
+    text-decoration: underline;
 }
 
+#caption-image {
+  width: 250px;
+}
 
 /* Typography and text */
 
 body {
   font-family: 'Roboto', sans-serif;
+  font-size: 1.7em;
 }
 
 h1, h2, h3, h4 {
   font-family: 'Raleway', sans-serif;
 }
 
-h1 {
+h1.caption {
+  padding: 18px;
+  letter-spacing: 10px;
+  width:450px;
+  margin-left: auto;
+  margin-right: auto;
+  text-transform: uppercase;
+}
+
+h2.caption {
+  font-weight: bold;
+  letter-spacing: 5px;
+  text-transform: uppercase
 }
 
 
-.caption {
-  position: absolute;
+.caption-box {
+  position: relative;
   left: 0;
-  top: 50%;
+  top: 35%;
   width: 100%;
   text-align: center;
-  color: #000;
 }
 
-.caption span.caption-box {
-  background-color: #111;
-  color: #fff;
-  padding: 18px;
-  font-size: 25px;
-  letter-spacing: 10px;
+.logo-box {
+  position: relative;
+  left: 0;
+  top: 15%;
+  width: 100%;
+  text-align: center;
 }
+
 
 .content-box {
-  opacity: 0.1;
-  width:75%;
-  margin:20px auto 30px auto;
-  background-color:#f9f9f9;
+  width:65%;
+  margin-left:auto;
+  margin-right: auto;
 }
 
 
@@ -67,26 +82,62 @@ h1 {
 }
 
 #section0 {
-  background-image: url("img/bg_winter_002.jpg");
+  background-image: url("img/bg_winter_003.jpg");
   min-height: 100%;
+  height: 100%;
 }
 
 #section1 {
-  background: #B24592; /* fallback for old browsers */
-  background: -webkit-linear-gradient(to bottom, #4B79A1 , #283E51); /* Chrome 10-25, Safari 5.1-6 */
-  background: linear-gradient(to bottom, #4B79A1 , #283E51); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */       
   min-height: 400px;
 }
 
 #section2 {
   background-image: url("img/bg_winter_001.jpg");
-  min-height: 300px;
+  min-height: 500px;
 }
 
 #section3 {
-  background: #B24592; /* fallback for old browsers */
-  background: -webkit-linear-gradient(to bottom, #2980b9 , #2c3e50); /* Chrome 10-25, Safari 5.1-6 */
-  background: linear-gradient(to bottom, #2980b9 , #2c3e50); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */       
   min-height: 400px;
 }
 
+#section4 {
+  background-image: url("img/bg_winter_004.jpg");
+  min-height: 500px;
+}
+
+#section5 {
+  min-height: 400px;
+}
+
+section {
+  margin:0;
+  padding-top:30px;
+  padding-bottom: 30px;
+}
+
+
+/* Gradients */
+
+.bg-royal {
+  background: #141E30; /* fallback for old browsers */
+  background: -webkit-linear-gradient(to top, #141E30 , #243B55); /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to top, #141E30 , #243B55); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+
+.bg-mirage {
+  background: #16222A; /* fallback for old browsers */
+  background: -webkit-linear-gradient(to top, #16222A , #3A6073); /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to top, #16222A , #3A6073); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+
+.bg-deepsea {
+background: #2C3E50; /* fallback for old browsers */
+background: -webkit-linear-gradient(to top, #2C3E50 , #4CA1AF); /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to top, #2C3E50 , #4CA1AF); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+
+.bg-cloud {
+background: #ECE9E6; /* fallback for old browsers */
+background: -webkit-linear-gradient(to top, #ECE9E6 , #ffffff); /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to top, #ECE9E6 , #ffffff); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}

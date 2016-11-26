@@ -4,10 +4,6 @@
 body {
   padding: 0;
   margin: 0;
-  font-family: "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
-  font-size: 16px;
-  line-height: 1.5;
-  color: #606c71; 
 }
 
 a {
@@ -17,6 +13,37 @@ a {
 
 a:hover {
     text-decoration: underline; 
+}
+
+
+/* Typografy */
+
+body {
+  font-family: 'Roboto', sans-serif;
+  font-size: 16px;
+  line-height: 1.5;
+}
+
+h1, h2, h3, h4 {
+  font-family: 'Raleway', sans-serif;
+}
+
+
+/* Background images and parallax fx */
+
+.px {
+  position: relative;
+  /* opacity: 0.65; */
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+#section1 {
+  background-image: url("img/bg_winter_001.jpg");
+  min-height: 100%;
+
 }
 
 

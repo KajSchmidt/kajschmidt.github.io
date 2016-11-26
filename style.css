@@ -27,12 +27,6 @@ h1, h2, h3, h4 {
 }
 
 h1 {
-  background-color: #111;
-  color: #fff;
-  padding: 18px;
-  font-size: 25px;
-  letter-spacing: 10px;
-  text-transform: uppercase;
 }
 
 
@@ -44,6 +38,15 @@ h1 {
   text-align: center;
   color: #000;
 }
+
+.caption span.caption-box {
+  background-color: #111;
+  color: #fff;
+  padding: 18px;
+  font-size: 25px;
+  letter-spacing: 10px;
+}
+
 
 
 

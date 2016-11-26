@@ -16,7 +16,7 @@ a:hover {
 }
 
 
-/* Typography and text fx */
+/* Typography and text */
 
 body {
   font-family: 'Roboto', sans-serif;
@@ -47,7 +47,11 @@ h1 {
   letter-spacing: 10px;
 }
 
-
+.content-box {
+  opacity: 0.1;
+  width:75%;
+  margin:20px auto 30px auto;
+}
 
 
 /* Background images/colors and parallax fx */

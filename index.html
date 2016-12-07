@@ -9,65 +9,59 @@
       <link href="https://fonts.googleapis.com/css?family=Raleway|Roboto" rel="stylesheet">
 
     <!-- Bootstrap -->
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
 
     <!-- Colors -->
     <link rel=stylesheet href="https://s3-us-west-2.amazonaws.com/colors-css/2.2.0/colors.min.css">
 
+    <!-- Icons -->
+    <script src="https://use.fontawesome.com/bad28dc89c.js"></script>
+
     <!-- Custom CSS -->
     <link rel="stylesheet" href="style.css">
+
+    <!-- Custom JS -->
+    <script src="script.js"></script>
 
 
   </head>
   <body>
   <div class="container-fluid">
 
-    <section class="parallax row" id="section0">
-      <div class="caption-box">
+    <header class="parallax row" id="section0">
         <h1 class="caption bg-black white">Kaj Schmidt</h1>
-      </div>
+    </header>
+
+
+    <section class="bg-royal white row" id="section1">
+
+          <p  class="col-xs-12 col-md-8">Lärare på <a href="http://ntigymnasiet.se/umea" target="blank">NTI-Gymnasiet i Umeå</a>.</p>
+          <img class="img-circle col-xs-12 col-md-4" id="pres-image" src="img/pres_001.jpg">
+
     </section>
 
+    <section class="bg-cloud black row" id="section2" >
 
-    <section class="bg-royal aqua row" id="section1">
-      <div class="content-box row">
-        <div class="col-sm-12 col-md-8">
-          <h2 class="caption">Om mig</h2>
-          <p>Lärare på NTI-Gymnasiet i Umeå.</p>
-        </div>
-        <div class="col-sm-12 col-md-4">
-          <img class="img-circle" id="caption-image" src="img/pres_001.jpg">
-        </div>
-      </div>
+          <a href="https://github.com/KajSchmidt/" target="_blank"><span class="col-md-2 col-xs-3 fa fa-github" data-toggle="tooltip" data-placement="top" title="kajschmidt @ Github"></span></a>
+          <a href="https://www.facebook.com/kaj.schmidt" target="_blank" ><span class="col-md-2 col-xs-3 fa fa-facebook" data-toggle="tooltip" data-placement="top" title="kaj.schmidt @ Facebooks"></span></a>
+          <a href="https://www.instagram.com/kaj_schmidt/" target="_blank"><span class="col-md-2 col-xs-3 fa fa-instagram" data-toggle="tooltip" data-placement="top" title="kaj_schmidt @ Instagram"></span></a>
+          <a href="https://www.linkedin.com/in/kajschmidt" target="_blank"><span class="col-md-2 col-xs-3 fa fa-linkedin" data-toggle="tooltip" data-placement="top" title="kajschmidt @ Linkedin"></span></a>
+          <a href="mailto:kaj.r.schmidt@gmail.com" target="_blank"><span class="col-md-2 col-xs-3 fa fa-envelope" data-toggle="tooltip" data-placement="top" title="kaj.r.schmidt@gmail.com"></span></a>
+
     </section>
 
-
-    <section class="parallax row" id="section2">
-      &nbsp;
-    </section>
-
-    <section class="bg-cloud navy row" id="section3" >
-      <div class="content-box">
-        <h2 class="caption">Hitta mig</h2>
-      </div>
-    </section>
-
-    <section class="parallax row" id="section4">
-      &nbsp;
-    </section>
-
-    <section class="bg-mirage white row" id="section5">
-      <div class="content-box">
-        <h2 class="caption">Lyssnar på</h2>
-      </div>
-    </section>
-
-   <section class="parallax row" id="section0">
-     <div class="logo-box">
-       <img src="img/temp_logo.png">
-     </div>
-    </section
+   <footer class="parallax row" id="section0">
+       <img class="center-block" id="logo" src="img/monogram_white.png">
+    </footer>
   </div>
+
+  <!-- Bootstrap -->
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+  <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+  <script type="text/javascript">
+      $(window).load(function(){
+        $('[data-toggle="tooltip"]').tooltip();
+      });
+  </script>
   </body>
 </html>

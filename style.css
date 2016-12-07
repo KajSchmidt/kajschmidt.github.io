@@ -15,8 +15,30 @@ a:hover {
     text-decoration: underline;
 }
 
-#caption-image {
-  width: 250px;
+section {
+  padding-left: 17%;
+  padding-right: 17%;
+  padding-top:5%;
+  padding-bottom: 5%;
+  margin:0;
+}
+
+/* Images */
+
+.fa {
+  font-size: 3em;
+  text-align: center;
+}
+
+#pres-image {
+  width: 75%;
+  max-width: 250px;
+}
+
+#logo {
+  width: 75%;
+  max-width: 250px;
+  margin-top:15%;
 }
 
 /* Typography and text */
@@ -28,6 +50,18 @@ body {
 
 h1, h2, h3, h4 {
   font-family: 'Raleway', sans-serif;
+}
+
+header {
+  padding-left: 17%;
+  padding-right: 17%;
+  padding-top: 15%;
+  text-align: center;
+}
+
+section {
+  color:#ffffff;
+  font-weight: bold;
 }
 
 h1.caption {
@@ -46,35 +80,10 @@ h2.caption {
 }
 
 
-.caption-box {
-  position: relative;
-  left: 0;
-  top: 35%;
-  width: 100%;
-  text-align: center;
-}
-
-.logo-box {
-  position: relative;
-  left: 0;
-  top: 15%;
-  width: 100%;
-  text-align: center;
-}
-
-
-.content-box {
-  width:65%;
-  margin-left:auto;
-  margin-right: auto;
-}
-
-
 /* Background images/colors and parallax fx */
 
 .parallax {
   position: relative;
-  /* opacity: 0.65; */
   background-attachment: fixed;
   background-position: center;
   background-repeat: no-repeat;
@@ -87,33 +96,11 @@ h2.caption {
   height: 100%;
 }
 
-#section1 {
-  min-height: 400px;
+#section1, #section2  {
+  min-height:50%;
 }
 
-#section2 {
-  background-image: url("img/bg_winter_001.jpg");
-  min-height: 500px;
-}
 
-#section3 {
-  min-height: 400px;
-}
-
-#section4 {
-  background-image: url("img/bg_winter_004.jpg");
-  min-height: 500px;
-}
-
-#section5 {
-  min-height: 400px;
-}
-
-section {
-  margin:0;
-  padding-top:30px;
-  padding-bottom: 30px;
-}
 
 
 /* Gradients */
